@@ -1,0 +1,40 @@
+.footer {
+    background-color: #282c34; 
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 5px 0; 
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #61dafb;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center; 
+    }
+}

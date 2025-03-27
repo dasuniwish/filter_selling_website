@@ -1,0 +1,32 @@
+.order-status-container {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    margin-left: 300px;
+}
+
+.order-status-image {
+    width: 300px;
+    height: auto; 
+    margin-right: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .order-status-container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 0px;
+    }
+
+    .order-status-image {
+        margin-left: 0; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+}

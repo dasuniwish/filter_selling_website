@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": 120,
+      "category": "Fast Food",
+      "image": "/Images/pizza.jpg",
+      "description": "Delicious cheese pizza topped with fresh ingredients."
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "price": 800,
+      "category": "Fast Food",
+      "image": "/Images/burger.jpg",
+      "description": "Juicy beef burger served with lettuce, tomatoes, and special sauce."
+    },
+    {
+      "id": 3,
+      "name": "Pasta",
+      "price": 100,
+      "category": "Italian",
+      "image": "/Images/pasta.jpg",
+      "description": "Tasty spaghetti pasta served with a rich tomato sauce."
+    },
+    {
+      "id": 4,
+      "name": "Sushi",
+      "price": 150,
+      "category": "Japanese",
+      "image": "/Images/sushi.jpg",
+      "discount": 10,
+      "description": "Fresh sushi rolls made with the finest seafood."
+    },
+    {
+      "id": 5,
+      "name": "Salad",
+      "price": 70,
+      "category": "Healthy",
+      "image": "/Images/salad.jpg",
+      "discount": 15,
+      "description": "Fresh garden salad with a variety of seasonal vegetables."
+    },
+    {
+      "id": 6,
+      "name": "Steak",
+      "price": 1000,
+      "category": "Grill",
+      "image": "/Images/steak.jpg",
+      "discount": 30,
+      "description": "Grilled steak cooked to perfection, served with herbs."
+    },
+    {
+      "id": 7,
+      "name": "Taco",
+      "price": 200,
+      "category": "Fast Food",
+      "image": "/Images/taco.jpg",
+      "description": "A classic Mexican dish consisting of a soft or crispy tortilla filled with seasoned meat, fresh vegetables, cheese, and flavorful sauces."
+    },    
+    {
+      "id": 8,
+      "name": "Dango",
+      "price": 150,
+      "category": "Japanese",
+      "image": "/Images/dango.jpg",
+      "description": "A traditional Japanese sweet dumpling made from rice flour, often served on skewers and coated with sweet soy glaze or red bean paste."
+    },
+    {
+      "id": 9,
+      "name": "Mochi",
+      "price": 170,
+      "category": "Japanese",
+      "image": "/Images/mochi.jpg",
+      "description": "Fresh sushi rolls made with the finest seafood."
+    }
+  ]
+  
