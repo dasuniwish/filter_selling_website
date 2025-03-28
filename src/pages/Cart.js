@@ -55,17 +55,13 @@ const Cart = () => {
     const itemRef = ref(database, `cart/${id}`);
     try {
       await remove(itemRef);
-  
-      // Wait for Firebase confirmation, then update local state
-      setCartItems((prevItems) => prevItems.filter((item) => item.id !== id));
-  
-      // Recalculate the total price after deletion
-      calculateTotalPrice(cartItems.filter((item) => item.id !== id));
+      const updatedCartItems = cartItems.filter((item) => item.id !== id);
+      setCartItems(updatedCartItems);
+      calculateTotalPrice(updatedCartItems);
     } catch (error) {
       console.error("Error removing item from cart:", error);
     }
   };
-  
 
   const handlePaymentSlipChange = (e) => {
     setPaymentSlip(e.target.files[0]);

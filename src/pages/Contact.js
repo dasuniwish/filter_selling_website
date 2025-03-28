@@ -41,7 +41,7 @@ const Contact = () => {
                 <h1 className="text-center">Contact Us</h1>
                 <div>
                   <p>
-                    <FaPhone /> Call us: (123) 456-7890
+                    <FaPhone /> Call us: (+94)71 456 7890
                   </p>
                   <p>
                     <FaEnvelope /> Email:{" "}

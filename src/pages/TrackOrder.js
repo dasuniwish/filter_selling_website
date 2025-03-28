@@ -73,7 +73,7 @@ const TrackOrderStatus = () => {
           )}
         </div>
         <img
-          src="Images/food.jpg"
+          src="Images/Man.jpg"
           alt="Delivery"
           className="order-status-image"
         />

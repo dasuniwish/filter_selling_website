@@ -46,7 +46,7 @@ const Footer = () => {
               Email:{" "}
               <a href="mailto:support@filterhub.com">support@filterhub.com</a>
             </p>
-            <p>Phone: (123) 456-7890</p>
+            <p>Phone: (+94)71 456 7890</p>
           </Col>
         </Row>
         <Row>
