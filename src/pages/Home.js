@@ -67,7 +67,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <Container className="mt-4">
-        <h1 className="mb-3 text-center">Welcome to Our FoodJoy</h1>
+        <h1 className="mb-3 text-center">Welcome to Our FilterHub</h1>
 
         <Row className="mb-3">
           <Col md={8}>
@@ -81,11 +81,12 @@ const HomePage = () => {
           <Col md={4}>
             <Form.Select value={category} onChange={handleCategoryChange}>
               <option value="">All Categories</option>
-              <option value="Fast Food">Fast Food</option>
-              <option value="Italian">Italian</option>
-              <option value="Japanese">Japanese</option>
-              <option value="Healthy">Healthy</option>
-              <option value="Grill">Grill</option>
+              <option value="Air Filters">Air Filters</option>
+              <option value="Water Filters">Water Filters</option>
+              <option value="Oil Filters">Oil Filters</option>
+              <option value="Industrial Filters">Industrial Filters</option>
+              <option value="Food and Beverage Filters">Food and Beverage Filters</option>
+              <option value="Specialty Filters">Specialty Filters</option>
             </Form.Select>
           </Col>
         </Row>

@@ -9,12 +9,12 @@ const Footer = () => {
         <Row>
        
           <Col xs={12} md={6}>
-          <img src="logo.ico" alt="FoodJoy Logo" className="navbar-logo" style={{ width: '100px',marginBottom:'50px'  }} />
+          <img src="/Images/logo.jpg" alt="FilterHub Logo" className="navbar-logo" style={{ width: '100px',marginBottom:'50px'  }} />
 
             <h5>About Us</h5>
             <p>
-              FoodJoy is dedicated to providing fresh and organic food products
-              to enhance your health and wellbeing.
+            FilterHub simplifies your shopping experience by offering an intuitive platform to quickly discover and filter products tailored to your needs. 
+
             </p>
           </Col>
           <Col xs={12} md={3}>
@@ -44,7 +44,7 @@ const Footer = () => {
             <h5>Contact Us</h5>
             <p>
               Email:{" "}
-              <a href="mailto:support@foodjoy.com">support@foodjoy.com</a>
+              <a href="mailto:support@filterhub.com">support@filterhub.com</a>
             </p>
             <p>Phone: (123) 456-7890</p>
           </Col>
@@ -52,7 +52,7 @@ const Footer = () => {
         <Row>
           <Col className="text-center mt-4">
             <p>
-              &copy; {new Date().getFullYear()} FoodJoy. All Rights Reserved.
+              &copy; {new Date().getFullYear()} FilterHub. All Rights Reserved.
             </p>
           </Col>
         </Row>

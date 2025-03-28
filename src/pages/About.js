@@ -11,42 +11,55 @@ const About = () => {
       <Container className="mt-5">
         <h1 className="text-center mb-4">About Us</h1>
         <Row>
-          <Col md={12} className="mb-4">
+          <Col md={4} className="mb-4">
             <Card className="hover-card bg-light-blue">
               <Card.Body>
                 <h5>Company Details</h5>
                 <p>
-                  FoodJoy is a leading provider of fresh and organic food
-                  products, committed to enhancing the health and wellbeing of
-                  our customers. Our goal is to make healthy eating accessible
-                  and enjoyable for everyone.
+                  <strong>Company Name:</strong> FilterHub
+                  <br />
+                  <strong>Website:</strong> www.filterhub.com
+                  <br />
+                  <strong>Industry:</strong> E-commerce / Retail
+                  <br />
+                  <strong>Location:</strong> Matara, Sri Lanka
+                  <br />
+                  <strong>Contact Email:</strong>{" "}
+                  <a href="mailto:support@filterhub.com">
+                    support@filterhub.com
+                  </a>
+                  <br />
+                  <strong>Phone Number:</strong> (123) 456-7890
+                  <br />
                 </p>
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row>
-          <Col md={6} className="mb-4">
+
+          <Col md={4} className="mb-4">
             <Card className="hover-card bg-light-blue">
               <Card.Body>
                 <h5>Mission</h5>
                 <p>
-                  Our mission is to provide high-quality, organic food products
-                  that nourish the body and mind, while promoting sustainable
-                  farming practices that benefit our community and the
-                  environment.
+                  At FilterHub, our mission is to simplify the shopping
+                  experience for filters by providing an extensive selection of
+                  high-quality products. We empower consumers with an intuitive
+                  platform, exceptional customer service, and a commitment to
+                  sustainability, ensuring they find the perfect solutions for
+                  their air, water, and industrial filtration needs.
                 </p>
               </Card.Body>
             </Card>
           </Col>
-          <Col md={6} className="mb-4">
+          <Col md={4} className="mb-4">
             <Card className="hover-card bg-light-blue">
               <Card.Body>
                 <h5>Vision</h5>
                 <p>
-                  Our vision is to create a healthier world where organic food
-                  is the norm, fostering a community that values sustainability,
-                  health, and wellness.
+                  To become the leading online destination for high-quality
+                  filters, empowering consumers to find the perfect solutions
+                  for their needs through an innovative and user-friendly
+                  platform.
                 </p>
               </Card.Body>
             </Card>

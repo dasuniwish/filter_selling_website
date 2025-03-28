@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Row, Col, Form, Button, Card } from "react-bootstrap";
+import { Container, Row, Col, Form, Button, Card, Alert } from "react-bootstrap";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -11,6 +11,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
+  const [successMessage, setSuccessMessage] = useState(""); 
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -21,7 +22,7 @@ const Contact = () => {
 
     push(ref(database, "messages"), formData)
       .then(() => {
-        alert("Message sent successfully!");
+        setSuccessMessage("Message sent successfully!"); 
         setFormData({ name: "", email: "", message: "" }); 
       })
       .catch((error) => {
@@ -44,7 +45,7 @@ const Contact = () => {
                   </p>
                   <p>
                     <FaEnvelope /> Email:{" "}
-                    <a href="mailto:support@foodjoy.com">support@foodjoy.com</a>
+                    <a href="mailto:support@filterhub.com">support@filterhub.com</a>
                   </p>
                 </div>
                 <div className="text-center">
@@ -65,6 +66,7 @@ const Contact = () => {
           <Col xs={12} md={6}>
             <Card>
               <Card.Body>
+                {successMessage && <Alert variant="success">{successMessage}</Alert>} 
                 <Form onSubmit={handleSubmit}>
                   <Form.Group controlId="formName" className="mb-4">
                     <Form.Label>Name</Form.Label>

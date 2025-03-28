@@ -65,11 +65,12 @@ const Product = () => {
           <Col md={6}>
             <Form.Select name="category" onChange={handleFilterChange}>
               <option value="">All Categories</option>
-              <option value="Fast Food">Fast Food</option>
-              <option value="Italian">Italian</option>
-              <option value="Japanese">Japanese</option>
-              <option value="Healthy">Healthy</option>
-              <option value="Grill">Grill</option>
+              <option value="Air Filters">Air Filters</option>
+              <option value="Water Filters">Water Filters</option>
+              <option value="Oil Filters">Oil Filters</option>
+              <option value="Industrial Filters">Industrial Filters</option>
+              <option value="Food and Beverage Filters">Food and Beverage Filters</option>
+              <option value="Specialty Filters">Specialty Filters</option>
             </Form.Select>
           </Col>
           <Col md={6}>

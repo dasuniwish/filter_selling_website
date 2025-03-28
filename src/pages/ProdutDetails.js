@@ -83,7 +83,17 @@ const ProductDetails = () => {
                         <br />
                       </>
                     )}
-                    <strong>Description:</strong> {product.description}
+                    <strong>Description:</strong> {product.description} <br />
+                    <strong>Specifications:</strong>
+                    <ul>
+                      {Object.entries(product.specifications).map(
+                        ([key, value]) => (
+                          <li key={key}>
+                            <strong>{key}:</strong> {value}
+                          </li>
+                        )
+                      )}
+                    </ul>
                   </Card.Text>
                   <Button
                     as={Link}

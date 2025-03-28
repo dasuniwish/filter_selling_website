@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       
-            <h1 className="navbar-title"><img src="logo.ico" alt="FoodJoy Logo" className="navbar-logo" style={{ width: '30px', marginRight: '15px'  }} />FoodJoy</h1>
+            <h1 className="navbar-title"><img src="/Images/logo.jpg" alt="FilterHub Logo" className="navbar-logo" style={{ width: '30px', marginRight: '15px'  }} />FilterHub</h1>
       <div className="menu-icon" onClick={toggleMenu}>
         &#9776;
       </div>

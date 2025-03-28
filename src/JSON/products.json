@@ -1,78 +1,140 @@
 [
-    {
-      "id": 1,
-      "name": "Pizza",
-      "price": 120,
-      "category": "Fast Food",
-      "image": "/Images/pizza.jpg",
-      "description": "Delicious cheese pizza topped with fresh ingredients."
-    },
-    {
-      "id": 2,
-      "name": "Burger",
-      "price": 800,
-      "category": "Fast Food",
-      "image": "/Images/burger.jpg",
-      "description": "Juicy beef burger served with lettuce, tomatoes, and special sauce."
-    },
-    {
-      "id": 3,
-      "name": "Pasta",
-      "price": 100,
-      "category": "Italian",
-      "image": "/Images/pasta.jpg",
-      "description": "Tasty spaghetti pasta served with a rich tomato sauce."
-    },
-    {
-      "id": 4,
-      "name": "Sushi",
-      "price": 150,
-      "category": "Japanese",
-      "image": "/Images/sushi.jpg",
-      "discount": 10,
-      "description": "Fresh sushi rolls made with the finest seafood."
-    },
-    {
-      "id": 5,
-      "name": "Salad",
-      "price": 70,
-      "category": "Healthy",
-      "image": "/Images/salad.jpg",
-      "discount": 15,
-      "description": "Fresh garden salad with a variety of seasonal vegetables."
-    },
-    {
-      "id": 6,
-      "name": "Steak",
-      "price": 1000,
-      "category": "Grill",
-      "image": "/Images/steak.jpg",
-      "discount": 30,
-      "description": "Grilled steak cooked to perfection, served with herbs."
-    },
-    {
-      "id": 7,
-      "name": "Taco",
-      "price": 200,
-      "category": "Fast Food",
-      "image": "/Images/taco.jpg",
-      "description": "A classic Mexican dish consisting of a soft or crispy tortilla filled with seasoned meat, fresh vegetables, cheese, and flavorful sauces."
-    },    
-    {
-      "id": 8,
-      "name": "Dango",
-      "price": 150,
-      "category": "Japanese",
-      "image": "/Images/dango.jpg",
-      "description": "A traditional Japanese sweet dumpling made from rice flour, often served on skewers and coated with sweet soy glaze or red bean paste."
-    },
-    {
-      "id": 9,
-      "name": "Mochi",
-      "price": 170,
-      "category": "Japanese",
-      "image": "/Images/mochi.jpg",
-      "description": "Fresh sushi rolls made with the finest seafood."
+  {
+    "id": 1,
+    "name": "Activated Carbon Filters",
+    "price": 1200,
+    "category": "Air Filters",
+    "image": "/Images/ActivatedCarbonFilters.jpg",
+    "description": "Activated carbon filters effectively remove odors, smoke, and harmful chemicals from the air, ensuring a cleaner and healthier indoor environment.",
+    "specifications": {
+        "Material": "Activated Carbon",
+        "Size": "12x12 inches",
+        "Filter Life": "6 months",
+        "Efficiency": "99% of VOCs",
+        "Application": "Home and office air purification"
     }
-  ]
-  
+  },
+  {
+    "id": 2,
+    "name": "HEPA Filters",
+    "price": 8000,
+    "category": "Air Filters",
+    "image": "/Images/HEPAFilters.jpg",
+    "description": "HEPA filters capture 99.97% of airborne particles, including dust, pollen, and pet dander, making them ideal for allergy sufferers and maintaining air quality.",
+    "specifications": {
+        "Material": "HEPA media",
+        "Size": "20x20 inches",
+        "Filter Life": "12 months",
+        "Efficiency": "99.97% for 0.3 microns",
+        "Application": "HVAC systems, air purifiers"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Carbon Block Filters",
+    "price": 1000,
+    "category": "Water Filters",
+    "image": "/Images/CarbonBlockFilters.jpg",
+    "description": "Carbon block filters effectively reduce chlorine, sediment, and volatile organic compounds (VOCs) in water, enhancing taste and safety for drinking and cooking.",
+    "specifications": {
+        "Material": "Carbon block",
+        "Size": "10 inches",
+        "Filter Life": "6 months",
+        "Flow Rate": "1.5 GPM",
+        "Application": "Under-sink and countertop filtration"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Spin-On Oil Filters",
+    "price": 15000,
+    "category": "Oil Filters",
+    "image": "/Images/SpinOnOilFilters.jpg",
+    "discount": 10,
+    "description": "Spin-on oil filters provide excellent filtration and easy installation, ensuring optimal engine performance by removing contaminants from engine oil.",
+    "specifications": {
+        "Type": "Spin-on",
+        "Size": "Standard",
+        "Filter Life": "5,000 miles",
+        "Efficiency": "99% filtration",
+        "Application": "Automotive engines"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Cartridge Filters",
+    "price": 70000,
+    "category": "Industrial Filters",
+    "image": "/Images/CartridgeFilters.jpg",
+    "discount": 15,
+    "description": "Cartridge filters are designed for high efficiency in industrial applications, capturing particles and contaminants to protect machinery and improve product quality.",
+    "specifications": {
+        "Material": "Polypropylene",
+        "Size": "40 inches",
+        "Filter Life": "12 months",
+        "Efficiency": "99% at 1 micron",
+        "Application": "Industrial filtration systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Juice and Beverage Filters",
+    "price": 1000,
+    "category": "Food and Beverage Filters",
+    "image": "/Images/Juice&BeverageFilters.jpg",
+    "discount": 30,
+    "description": "Juice and beverage filters enhance flavor and clarity by removing impurities and sediments, ensuring a refreshing and enjoyable drink experience.",
+    "specifications": {
+        "Material": "Polyethylene",
+        "Size": "5 inches",
+        "Filter Life": "3 months",
+        "Flow Rate": "2 GPM",
+        "Application": "Beverage production and filtration"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Aquarium Filters",
+    "price": 5000,
+    "category": "Specialty Filters",
+    "image": "/Images/AquariumFilters.jpg",
+    "description": "Aquarium filters maintain water quality by removing debris and toxins, providing a clean and healthy environment for your aquatic pets.",
+    "specifications": {
+        "Type": "Mechanical and Biological",
+        "Size": "Varies by tank size",
+        "Filter Life": "3-6 months",
+        "Flow Rate": "Up to 300 GPH",
+        "Application": "Freshwater and saltwater aquariums"
+    }
+  },    
+  {
+    "id": 8,
+    "name": "Ventilation Filters",
+    "price": 7500,
+    "category": "Specialty Filters",
+    "image": "/Images/VentilationFilters.jpg",
+    "description": "Ventilation filters improve indoor air quality by trapping dust and allergens, ensuring efficient airflow and a comfortable living space.",
+    "specifications": {
+        "Material": "Synthetic fiber",
+        "Size": "16x20 inches",
+        "Filter Life": "6 months",
+        "Efficiency": "MERV 8 rating",
+        "Application": "HVAC systems"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Chemical Filters",
+    "price": 1700,
+    "category": "Specialty Filters",
+    "image": "/Images/ChemicalFilters.jpg",
+    "description": "Chemical filters are designed to remove harmful gases and volatile organic compounds (VOCs) from the air, enhancing safety and health in various environments.",
+    "specifications": {
+        "Material": "Activated Carbon",
+        "Size": "Standard size",
+        "Filter Life": "4 months",
+        "Efficiency": "95% for VOCs",
+        "Application": "Industrial and residential air purification"
+    }
+  }
+]
