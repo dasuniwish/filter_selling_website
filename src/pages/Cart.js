@@ -33,14 +33,24 @@ const Cart = () => {
       const snapshot = await get(cartRef);
       if (snapshot.exists()) {
         const data = snapshot.val();
-        const itemsArray = Object.values(data);
+        const mergedItems = {};
+  
+        Object.values(data).forEach((item) => {
+          if (mergedItems[item.id]) {
+            mergedItems[item.id].quantity += item.quantity;
+          } else {
+            mergedItems[item.id] = { ...item };
+          }
+        });
+  
+        const itemsArray = Object.values(mergedItems);
         setCartItems(itemsArray);
         calculateTotalPrice(itemsArray);
       }
     };
-
+  
     fetchCartItems();
-  }, []);
+  }, []);  
 
   const calculateTotalPrice = (items) => {
     const total = items.reduce((acc, item) => {
