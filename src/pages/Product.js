@@ -59,7 +59,7 @@ const Product = () => {
     <>
       <Navbar />
       <Container className="mt-4">
-        <h1 className="mb-3 text-center">Food Menu</h1>
+        <h1 className="mb-3 text-center">Filter Products</h1>
 
         <Row className="mb-3">
           <Col md={6}>
